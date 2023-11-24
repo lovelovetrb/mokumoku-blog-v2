@@ -22,8 +22,8 @@ export default async function BlogId({
   const data = await client.get({ endpoint: "blog", contentId: id });
   const $ = cheerio.load(data.content);
   const headings = $("h1, h2, h3").toArray();
-  const toc = headings.map((data) => ({
-    text: data.children[0]?.data,
+  const toc = headings.map((data: any) => ({
+    text: data.children[0].data,
     id: data.attribs.id,
     name: data.name,
   }));
