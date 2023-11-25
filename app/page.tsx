@@ -11,7 +11,7 @@ export default async function Home() {
     <main>
       <Header />
       <div className="mx-auto px-5 max-w-5xl">
-        <div className="my-10 py-5 px-3 rounded-xl bg-white">
+        <div className="my-10 p-5 rounded-xl bg-white">
           <h2 className="container flex justify-center text-xl font-bold">
             === 記事一覧 ===
           </h2>
@@ -27,7 +27,9 @@ export default async function Home() {
           <ol className="container flex flex-col items-center gap-4 text-xl font-bold mt-5">
             {categories.contents.map((category: any) => (
               <li key={category.id}>
-                <Link href={`/category/${category.id}`}>{category.name} 🔗</Link>
+                <Link href={`/category/${category.id}`}>
+                  {`${category.name}🔗`}
+                </Link>
               </li>
             ))}
           </ol>

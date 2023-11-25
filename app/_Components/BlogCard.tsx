@@ -20,6 +20,9 @@ export const BlogCard = ({ blog }: any) => {
             height={blog.eyecatch?.height}
           />
           <p className="text-xl font-bold">{blog.title}</p>
+          <p className="text-gray-500">
+            {`タグ：${blog.category.name && blog.category.name}`}
+          </p>
           <p className="text-gray-500">{publishedAt}</p>
         </div>
       </Link>
