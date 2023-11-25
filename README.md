@@ -4,6 +4,8 @@
 
 # MOKUMOKU CUP 実行委員会 公式サイト
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4cdb890e-7e9a-40f4-aa18-f8de6e94385d/deploy-status)](https://app.netlify.com/sites/mokumokucup/deploys)
+
 ### 1. MOKUMOKU CUP とは？
 
 コロナ禍で人との交流が減ってしまっていた中、毎週木曜日にの 21 時からオンライン上でさまざまなバックグラウンドの人と繋がりながら自身のタスクに MOKUMOKU と取り組む「MOKUMOKU 会」という組織がありました（現在はフェーズ２に向けて活動休止中）
@@ -15,13 +17,13 @@
 - [microCMS](https://microcms.io)
 - [bun](https://bun.sh/)
 - [tailwind css](https://tailwindcss.com/)
-- [Vercel](https://vercel.com)
+- [Netlify](https://netlify.com)
 
 ### 3. 開発・運営
 
 [RISUman](https://twitter.com/lovelovetrb)
 
-**サイトはこちらから:** [https://mokumoku-blog.vercel.app/](https://mokumoku-blog.vercel.app/)
+**サイトはこちらから:** [https://mokumoku-blog.netlify.app/](https://mokumoku-blog.netlify.app/)
 
 ## 4.Getting Started
 
