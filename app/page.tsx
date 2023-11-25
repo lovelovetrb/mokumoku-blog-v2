@@ -9,7 +9,7 @@ export default async function Home() {
     <main>
       <Header />
       <div className="mx-auto px-5 max-w-5xl">
-        <div className="mt-10 py-5 px-3 rounded-xl bg-white">
+        <div className="my-10 py-5 px-3 rounded-xl bg-white">
           <h2 className="container flex justify-center text-xl font-bold">
             記事一覧
           </h2>
